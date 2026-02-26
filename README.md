@@ -33,5 +33,15 @@ App.js
 ```bash
 npm install
  ```
-``` bash
-npm start```
+
+### 2) start
+npm start 
+
+
+
+## 3) Legg inn “Backend / API” (veldig nyttig)
+Hvis appen kaller en backend, skriv én kort seksjon:
+
+```md
+## Backend
+Denne frontend-applikasjonen bruker et REST API. Oppdater base-URL i prosjektet hvis nødvendig.
