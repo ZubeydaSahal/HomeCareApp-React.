@@ -1,0 +1,61 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Root Variables */
+:root {
+  --font-family-primary: 'Nunito', sans-serif;
+  --font-family-heading: 'Poppins', sans-serif;
+  --primary: #8d6af1;
+  --primary-hover: #7c56e3;
+  --secondary: #1e214c;
+  --secondary-hover: #191a3d;
+  --dark: #111215;
+  --white: #ffffff;
+  --border-radius: 8px;
+  --transition-base: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  line-height: 1.6;
+  color: var(--dark);
+  background-color: #fff;
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-base);
+}
+
+button {
+  font-family: var(--font-family-primary);
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
