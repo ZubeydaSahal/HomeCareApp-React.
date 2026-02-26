@@ -15,8 +15,9 @@ HomeCareApp er en frontend-applikasjon utviklet i React for administrasjon og ov
 - Henter data fra backend via REST API
 - Komponentbasert struktur og gjenbruk
 
-## 🏗 Prosjektstruktur
-  src/
+```md
+##  Prosjektstruktur
+src/
 components/
 pages/
 services/
@@ -27,8 +28,7 @@ App.js
 ## Installasjon og kjøring
 
 ### 1) Installer
-  ```bash
+```bash
 npm install
 
-2) Start
 npm start
